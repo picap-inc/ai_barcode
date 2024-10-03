@@ -26,6 +26,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+    namespace 'com.air.ai_barcode'
     compileSdkVersion 31
 
     compileOptions {
