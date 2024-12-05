@@ -252,6 +252,8 @@ class _AppBarcodeScannerWidgetState extends State<_BarcodeScannerWidget> with Wi
       case AppLifecycleState.detached:
 
         break;
+      default:
+        break;
     }
   }
 
