@@ -3,7 +3,8 @@ description: Demonstrates how to use the ai_barcode plugin.
 publish_to: 'none'
 
 environment:
-  sdk: ">=2.17.1 <3.0.0"
+  sdk: ^3.5.0
+  flutter: ^3.24.3
 
 dependencies:
   flutter:
@@ -11,23 +12,23 @@ dependencies:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.0
+  cupertino_icons: ^1.0.8
 
   # barcode plugin
   ai_barcode:
     path: ../
 
   # route package
-  airoute: ^2.2.0
+  airoute: ^3.2.4
 
   # Flutter Permission.
-  permission_handler: ^8.0.0+2
+  permission_handler: ^11.3.1
 
   # message
-  ai_awesome_message: ^2.2.0
+  ai_awesome_message: ^3.0.0
 
   # design
-  air_design: ^2.2.0
+  air_design: ^3.0.0
 
 dev_dependencies:
   flutter_test:
